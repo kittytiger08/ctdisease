@@ -5,7 +5,7 @@
 layout: default
 title:  "CT disease"
 ---
-# Test
+#  CT Disease
 
 <div>
   <canvas id="myChart"></canvas>

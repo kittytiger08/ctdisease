@@ -1,0 +1,30 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+header h1 {
+    width:auto;
+}
+
+header h2 {
+    width:auto;
+    color: rgb(203, 240, 255);
+}
+
+header a.button {
+    display: block !important;
+    text-align: left;
+    top:auto;
+    bottom: auto;
+    position:relative;
+    margin-top:1rem;
+
+
+}
+@media only screen and (max-width: 767px) {
+header a.button {
+    width: fit-content;
+}
+}
