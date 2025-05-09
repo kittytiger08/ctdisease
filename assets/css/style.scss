@@ -3,6 +3,18 @@
 
 @import "{{ site.theme }}";
 
+header {
+    background: #E4DAF1 0 0 repeat-x;
+}
+
+#main-content h2:before {
+    content: "//";
+    color: #c6a782;
+}
+
+#content-wrapper {
+    border-top: solid 1px rgb(221, 181, 220);
+}
 
 header h1 {
     width:auto;
@@ -10,7 +22,7 @@ header h1 {
 
 header h2 {
     width:auto;
-    color: rgb(203, 240, 255);
+    color: #94877f;
 }
 
 header a.button {
